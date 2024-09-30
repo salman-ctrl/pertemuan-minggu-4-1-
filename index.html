@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container"> 
+    <div class="heading">
+        <h1>My Skills Showcase</h1>
+    </div>
+    
+    <main class="container-card">
+        <div class="hero">
+            <h2 class="head">About Me</h2>
+            <p>I am a web developer passionate about creating interactive and responsive websites.</p>
+        </div>
+        <div class="hero">
+            <h2 class="head">My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="hero">
+            <h2 class="head">Interactive Demo</h2>
+            <form id="skillForm">
+                <label for="name">Nama:</label>
+                <input type="text" name="name" id="name" placeholder="Masukkan nama" required>
+                
+                <label for="skill">Skills:</label>
+                <select name="skill" id="skill" required>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <div class="heading">
+        <p style="color: aliceblue;">&copy; 2024 Your Name</p>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #2a9df4;
+    --secondary-color: #F5DF4D;
+    --third-color: #df2c14;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container-card {
+    max-width: 700px;
+    width: 100%;
+}
+
+.heading {
+    width: 800px;
+    height: 150px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-radius: 3px;
+}
+
+
+.heading h1 {
+    color: white;
+    margin: 0;
+    
+}
+
+.hero {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+label {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input, select {
+    width: 99%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 7px 0;
+    background-color:#4CAF50 ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2388d8;
+}
